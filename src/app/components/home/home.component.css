@@ -1,0 +1,60 @@
+*{ 
+    color: white;
+    margin-left: 20px;
+}
+
+main { 
+    margin-top: 100px
+}
+
+h1 { 
+    color: white;
+
+    font-size: 40px;
+}
+h2 { 
+    margin-top: 0;
+    color: #8a2be2;
+    font-size: 40px;
+}
+
+p { 
+    width: 400px;
+}
+
+
+input { 
+    margin-top: 15px;
+    display: flex;
+    background-color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    color: black;
+    height: 50px;
+    width: 30rem;
+    border: 2px solid #8a2be2;
+}
+
+.button-footer { 
+    color: white;
+    background-color: #8a2be2 ;
+    margin-top: 15px;
+    display: flex;
+    font-size: 15px;
+    border-radius: 20px;
+    height: 5rem;
+    width: 10rem;
+    border: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+img { 
+    display: fixed;
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 35%;
+    position: relative; /* Ou absolute, dependendo do contexto */
+    top: -400px; /* Move a imagem 20px para cima */
+}
